@@ -1,0 +1,133 @@
+ /*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  header{
+    padding: 10px 0;
+}
+    .menu ul li a {
+       font-size: 14px;   
+       padding: 10px 0 0 !important;
+       text-align: right;
+}
+.c_text p{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-right: 40px;
+}
+/*feature*/
+.features{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.feature_text{
+    text-align: center;
+}
+.feature_text h1{
+    font-size: 20px;
+
+}
+.feature_text p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.f_text{
+    text-align: center;
+}
+.f_text h2{
+    font-size: 20px;
+    
+}
+.f_text p{
+    font-size: 14px;
+    
+}
+/*footer*/\
+.foot{
+    padding-bottom: 80px;
+}
+.foot_ad{
+    text-align: center;
+}
+.foot_ex{
+    text-align: center;
+}
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+     header{
+        padding: 15px 0;
+}
+
+    .menu ul li a {
+        font-size: 16px;
+        padding: 10px 0 0 !important;
+        text-align: right;
+}
+    .u_mail {
+        height: 45px;
+}
+    .con_icon ul li a i {
+        font-size: 30px !important;
+    }
+    /*footer*/
+    .foot_ad{
+        text-align: center;
+}
+    .foot_ex{
+        text-align: center;
+}
+    
+}
+
+
+/*Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .menu ul li a {
+    padding: 10px 0 0 !important;
+    text-align: right;
+}
+.c_text{
+    padding-top: 30px;
+}
+.c_text h1{
+    font-size: 25px;
+    font-weight: 700px !important;
+    margin-bottom: 15px;
+}
+.c_text h5{
+    font-size: 16px;
+}
+.c_text p{
+    margin: 15px 0;
+}
+.icon{}
+.icon li{
+    margin-right: 25px !important;
+}
+.icon li i{
+    font-size: 35px;
+    transition: .3s;
+}
+.f_text{
+    text-align: center;
+}
+/*footer*/
+.foot{
+    padding-bottom: 80px;
+}
+}
+/*Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*X-Large devices (large desktops, less than 1400px)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/*XX-Large devices (larger desktops)*/
+@media (min-width 1400 px) {
+
+}
+/*No media query since the xxl breakpoint has no upper bound on its width*/
